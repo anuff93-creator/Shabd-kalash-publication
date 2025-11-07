@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shabd Kalash Publication</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Shabd Kalash Publication — Publish your book with us / अपनी पुस्तक हमसे प्रकाशित कराएँ">
+  <style>
+    :root{
+      --bg:#f6efe4;
+      --paper:#fffaf3;
+      --accent:#8b5e3c;
+      --muted:#6b5a4a;
+      --ink:#2b2b2b;
+      --max:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;font-family: 'Noto Sans Devanagari', system-ui, sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;padding:28px;display:flex;justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--max);background:linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.98));border:1px solid rgba(139,94,60,0.08);box-shadow:0 10px 30px rgba(0,0,0,0.06);border-radius:8px;overflow:hidden}
+
+    header{display:flex;gap:18px;align-items:center;padding:26px;border-bottom:1px solid rgba(107,90,74,0.06);background:linear-gradient(90deg,#fffaf0,#fffdf8)}
+    .logo{
+      display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:110px;padding:10px 14px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#c79b7b);color:#fff;
+      box-shadow:0 6px 18px rgba(139,94,60,0.15);
+    }
+    .logo h1{margin:0;font-family:'Playfair Display',serif;font-size:18px;letter-spacing:0.6px}
+    .logo p{margin:4px 0 0 0;font-size:12px}
+    .brand{flex:1}
+    .brand h2{margin:0;font-family:'Playfair Display',serif;font-size:28px;color:var(--ink)}
+    .brand p{margin:6px 0 0 0;color:var(--muted)}
+
+    .hero{display:flex;gap:20px;padding:26px;border-bottom:1px solid rgba(107,90,74,0.04);align-items:stretch}
+    .left{flex:1}
+    .right{width:300px}
+
+    .card{background:var(--paper);padding:18px;border-radius:8px;border:1px solid rgba(107,90,74,0.04)}
+    .about h3{margin:0 0 6px 0;font-family:'Playfair Display',serif;color:var(--accent)}
+    .about p{margin:0;color:var(--muted);line-height:1.7}
+
+    .services{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .service-item{background:transparent;border:1px dashed rgba(139,94,60,0.08);padding:10px;border-radius:6px}
+    .service-item h4{margin:0;font-size:15px;font-family:'Playfair Display',serif;color:var(--accent)}
+    .service-item p{margin:6px 0 0 0;color:var(--muted);font-size:14px}
+
+    .right .cover{height:200px;background-image:linear-gradient(180deg,rgba(139,94,60,0.08),rgba(0,0,0,0.02));border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+
+    .services-list{margin-top:18px}
+    .services-list ul{padding-left:18px;margin:8px 0;color:var(--muted)}
+    .services-list li{margin:8px 0}
+
+    footer{display:flex;justify-content:space-between;align-items:center;padding:18px;border-top:1px solid rgba(107,90,74,0.04);background:linear-gradient(90deg,#fffdf8,#fffaf0)}
+    .contact{display:flex;align-items:center;gap:14px}
+    .contact .info{font-size:14px;color:var(--muted)}
+    .whatsapp{
+      display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:10px 14px;border-radius:6px;text-decoration:none;font-weight:700
+    }
+
+    /* bilingual chips */
+    .chip{display:inline-block;background:rgba(139,94,60,0.06);color:var(--muted);padding:6px 8px;border-radius:6px;margin-right:8px;font-size:13px}
+
+    /* responsive */
+    @media (max-width:800px){
+      .hero{flex-direction:column}
+      .right{width:100%}
+      .services{grid-template-columns:1fr}
+      header{flex-direction:column;align-items:flex-start}
+      .logo{align-self:center}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden>
+        <h1>शब्द कलश</h1>
+        <p>Shabd Kalash</p>
+      </div>
+      <div class="brand">
+        <h2>Shabd Kalash Publication</h2>
+        <p>Publish your book with us — अपनी पुस्तक हमसे प्रकाशित कराएँ</p>
+      </div>
+      <div style="text-align:right">
+        <div class="chip">लेखक बनना आसान हुआ</div>
+        <div style="margin-top:8px;color:var(--muted);font-size:13px">Call: <strong>76930 86736</strong></div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="left">
+        <section class="card about">
+          <h3>About / हमारे बारे में</h3>
+          <p><strong>Shabd Kalash Publication</strong> is a classic publishing house focused on bringing literary voices to readers. <br> <em>Shabd Kalash Publication</em> आपकी रचनाओं को पुस्तक के रूप में संरचित, संपादित और प्रकाशित करता है — आकर्षक कवर डिज़ाइन, पेज लेआउट, ISBN, और व्यापक वितरण सहायता के साथ।</p>
+        </section>
+
+        <section class="card services-list" style="margin-top:14px">
+          <h3 style="font-family:'Playfair Display',serif;color:var(--accent);margin:0 0 8px 0">Services / सेवाएँ</h3>
+          <div class="services">
+            <div class="service-item">
+              <h4>📘 Book Publication / पुस्तक प्रकाशन</h4>
+              <p>Complete book production — print & eBook, ISBN, and distribution. पूरी प्रकाशन सेवा; प्रिंट और ईबुक, ISBN व वितरण।</p>
+            </div>
+            <div class="service-item">
+              <h4>🎨 Cover & Layout / कवर और पेज लेआउट</h4>
+              <p>Premium cover design and professional page layout. आकर्षक कवर व पेशेवर पेज लेआउट।</p>
+            </div>
+
+            <div class="service-item">
+              <h4>📝 Editing & Proofreading / संपादन</h4>
+              <p>Copy editing, proofreading and formatting for print readiness. सामग्री संपादन और त्रुटि सुधार।</p>
+            </div>
+            <div class="service-item">
+              <h4>🌐 Distribution / वितरण</h4>
+              <p>Listing on Amazon, Goodreads, and other portals. अमेज़न, गुडरीड्स व अन्य पर उपलब्धता।</p>
+            </div>
+          </div>
+
+          <ul>
+            <li>📚 ISBN & Copyright assistance — ISBN व कॉपीराइट सुविधा</li>
+            <li>🏆 Author certificate & promotion help — लेखक प्रमाणपत्र व प्रचार सहायता</li>
+            <li>💰 Affordable pricing — सस्ती व पारदर्शी सेवाएँ</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside class="right">
+        <div class="card">
+          <div class="cover">
+            <div style="text-align:center;padding:8px">
+              <div style="font-family:'Playfair Display',serif;font-size:18px;color:var(--accent);">Publish with Us</div>
+              <div style="margin-top:8px;color:var(--muted);font-size:14px">अपनी पुस्तक का सफर शुरू करें — आज ही संपर्क करें</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <strong>Key Benefits / मुख्य बातें</strong>
+            <ul style="margin:8px 0 0 18px;color:var(--muted)">
+              <li>Premium cover & layout</li>
+              <li>ISBN & copyright</li>
+              <li>Distribution & marketing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px;text-align:center">
+          <h4 style="margin:0 0 8px 0;color:var(--accent)">Contact / संपर्क करें</h4>
+          <p style="margin:0;color:var(--muted)"><strong>Anuj Kumar Pathak</strong></p>
+          <p style="margin:6px 0 12px 0;color:var(--muted)">Phone: <strong>76930 86736</strong></p>
+          <a class="whatsapp" id="waBtn" href="https://wa.me/917693086736?text=Hello%20Shabd%20Kalash,%20I%20want%20to%20publish%20my%20book." target="_blank">📱 WhatsApp Message</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div style="font-size:14px;color:var(--muted)">&copy; 2025 Shabd Kalash Publication</div>
+      <div style="font-size:13px;color:var(--muted)">Write with us — अपनी रचना प्रकाशित कराएँ</div>
+    </footer>
+  </div>
+
+  <script>
+    // No animations as requested. Simple JS for accessibility/help.
+    document.getElementById('waBtn').addEventListener('click', function(){
+      // no extra behavior required; link opens WhatsApp
+    });
+  </script>
+</body>
+</html>
